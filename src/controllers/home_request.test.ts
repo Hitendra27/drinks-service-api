@@ -7,7 +7,7 @@ describe('Test home API endpoint request', () => {
         const res = await request(app).get('/');
 
         // Act
-        expect(res.statuscode).toEqual(200);
+        expect(res.statusCode).toEqual(200);
 
         // Assert
         expect(res.text).toEqual('Welcome to the Drinks API!');
