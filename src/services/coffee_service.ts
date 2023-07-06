@@ -1,6 +1,6 @@
 export const getCoffee = (name = 'Latte') => {
     return {
-        drinkType = 'Coffee',
+        drinkType : 'Coffee',
         name, 
     };
 };
