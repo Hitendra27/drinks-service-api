@@ -1,5 +1,5 @@
 import request from 'supertest';
-import { app } from '../app';
+import { app } from '../../app';
 
 describe('Test coffee API endpoint request', () => {
     test('GET /coffee should return correct object', async () => {

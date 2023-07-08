@@ -1,5 +1,5 @@
 import request from 'supertest';
-import { app } from '../app';
+import { app } from '../../app';
 
 describe('Test home API endpoint request', () => {
     test('GET should return correct message', async () => {
